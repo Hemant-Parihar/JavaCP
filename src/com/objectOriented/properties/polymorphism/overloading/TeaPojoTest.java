@@ -1,8 +1,8 @@
-package com.objectOriented.overloading;
+package com.objectOriented.properties.polymorphism.overloading;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TeaPojoTest {
     @Test

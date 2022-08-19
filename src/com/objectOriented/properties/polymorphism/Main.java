@@ -15,7 +15,6 @@ public class Main {
             It is dynamic, as it is determined during the run time.
             In it Java determine, which method to run. First it will look in the object, then object super, then more super class. Etc.
          */
-
         Shape shape = new Shape();
         Shape circle = new Circle();
         shape.area();
