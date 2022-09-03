@@ -41,7 +41,7 @@ class Node {
 //https://leetcode.com/problems/binary-tree-level-order-traversal/
 public class LevelOrderTraversal {
     public static void main(String[] args) {
-
+        System.out.println();
     }
 
     public List<List<Integer>> levelOrder(TreeNode root) {
