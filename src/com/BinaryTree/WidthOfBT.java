@@ -17,7 +17,6 @@ public class WidthOfBT {
     void solve(TreeNode root, int index) {
         Deque<Pair<TreeNode, Integer>> queue = new LinkedList<Pair<TreeNode, Integer>>();
         queue.add(new Pair(root, index));
-        queue.getFirst()
         int size;
         while(!queue.isEmpty()) {
             size = queue.size();
