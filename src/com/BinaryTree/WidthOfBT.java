@@ -2,6 +2,7 @@ package com.BinaryTree;
 
 import javafx.util.Pair;
 
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -14,8 +15,9 @@ public class WidthOfBT {
     }
 
     void solve(TreeNode root, int index) {
-        Queue<Pair<TreeNode, Integer>> queue = new LinkedList<Pair<TreeNode, Integer>>();
-        queue.add(new Pair(root, index));;
+        Deque<Pair<TreeNode, Integer>> queue = new LinkedList<Pair<TreeNode, Integer>>();
+        queue.add(new Pair(root, index));
+        queue.getFirst()
         int size;
         while(!queue.isEmpty()) {
             size = queue.size();
